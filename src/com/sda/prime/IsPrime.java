@@ -2,7 +2,7 @@ package com.sda.prime;
 
 public class IsPrime
 {
-    public boolean isPrime(int number)
+    public static boolean isPrime(int number)
     {
         for (int i = 2; i < number; i++)
         {
