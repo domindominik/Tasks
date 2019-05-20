@@ -7,7 +7,7 @@ public class IsPrimeChecker
         for (int i = 2; i < matrix.length; i++)
         {
 
-            if (!isPrime(matrix[i]))
+           // if (!isPrime(matrix[i]))
             {
 
             }

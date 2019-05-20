@@ -3,6 +3,7 @@ package com.sda.sort;
 import java.util.Random;
 
 import static com.sda.sort.BubbleSorting.bubblesorting;
+import static com.sda.sort.SelectSort.selectSort;
 
 public class Menu
 {
@@ -30,7 +31,8 @@ public class Menu
         System.out.println("Random numbers: ");
         showMatrix(matrix);
 
-        bubblesorting(matrix);
+        //bubblesorting(matrix);
+        selectSort(matrix);
 
         System.out.println("\nAfter sorting: ");
         showMatrix(matrix);
