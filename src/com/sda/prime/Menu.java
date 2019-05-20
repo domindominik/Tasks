@@ -37,10 +37,11 @@ public class Menu
         showMatrix(matrix);
 
         System.out.println("\nAfter sieve:");
-        sieveOfEratosthenes(matrix);
-        showMatrix(matrix);
+        //sieveOfEratosthenes(matrix);
+
 
 
         isPrimeChecker(matrix);
+        showMatrix(matrix);
     }
 }
