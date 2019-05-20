@@ -2,19 +2,20 @@ package com.sda.prime;
 
 public class SieveOfEratosthenes
 {
-    public static void sieveOfEratosthenes(int matrix[], int number)
+    public static void sieveOfEratosthenes(int matrix[])
     {
-        int j =2;
-        for (int i = 2; i < number; i++)
+
+        for (int i = 2; i < matrix.length; i++)
         {
             if (matrix[i] != 0)
             {
-                while (j < number)
-
-                    if (number % j == 0)
+                for(int j = i+1; j < matrix.length; j++)
+                {
+                    if(matrix[j] % matrix[i] == 0)
                     {
-                        matrix[i] = 0;
+                        matrix[j] = 0;
                     }
+                }
             }
 
         }
@@ -24,10 +25,17 @@ public class SieveOfEratosthenes
     {
         for (int i = 2; i < matrix.length; i++)
         {
-            System.out.print(matrix[i] + "\t");
-            if (i % 20 == 0)
+            if (matrix[i] != 0)
             {
-                System.out.println();
+                System.out.print(matrix[i] + "\t");
+                if (i % 20 == 0)
+                {
+                    System.out.println();
+                }
+            }
+            else
+            {
+                System.out.print("");
             }
         }
     }

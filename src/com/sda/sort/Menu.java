@@ -15,7 +15,7 @@ public class Menu
     }
     public static void main(String[] args)
     {
-        int size = 20, upperBound = 26;
+        int size = 50, upperBound = 26;
 
         int matrix[] = new int[size];
 
