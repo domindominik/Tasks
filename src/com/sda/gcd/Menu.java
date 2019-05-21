@@ -15,6 +15,10 @@ public class Menu
         int numberTwo = scanner.nextInt();
 
         MakeGCD makeGCD = new MakeGCD();
-        System.out.println("GCD = " + makeGCD.makeGDC(numberOne, numberTwo));
+        System.out.println("GCD iteration = " + makeGCD.makeGDC(numberOne, numberTwo));
+
+        GCDrecursiveMethod gcDrecursiveMethod = new GCDrecursiveMethod();
+        System.out.println("GDC recursion = " + gcDrecursiveMethod.recursiveMethod(numberOne, numberTwo));
+
     }
 }
