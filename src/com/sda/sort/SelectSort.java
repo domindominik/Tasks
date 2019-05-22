@@ -16,14 +16,12 @@ public class SelectSort
                 {
                     minimalIndex = j;
                 }
-
-                if (minimalIndex != i)
-                {
-                    int temp = matrix[minimalIndex];
-                    matrix[minimalIndex] = matrix[i];
-                    matrix[i] = temp;
-                }
-
+            }
+            if (minimalIndex != i)
+            {
+                int temp = matrix[minimalIndex];
+                matrix[minimalIndex] = matrix[i];
+                matrix[i] = temp;
             }
         }
     }

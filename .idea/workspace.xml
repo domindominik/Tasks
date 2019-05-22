@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29941b88-a89b-4d40-83e7-02540caebac4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/sort/Quicksort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/gcd/GCDrecursiveMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/gcd/GCDrecursiveMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jav21wro_p1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/sort/SelectSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,72 +18,39 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="345">
-                    <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/sda/gcd/MakeGCD.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/sda/gcd/GCDrecursiveMethod.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="30" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/sda/gcd/Menu.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/sda/gcd/MakeGCD.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="37" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sda/sort/Quicksort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sda/sort/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sda/sort/SelectSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,21 +75,23 @@
         <option value="$PROJECT_DIR$/src/com/sda/sort/bubbleSorting.java" />
         <option value="$PROJECT_DIR$/src/com/sda/sort/BubbleSorting.java" />
         <option value="$PROJECT_DIR$/src/com/sda/prime/SieveOfEratosthenes.java" />
-        <option value="$PROJECT_DIR$/src/com/sda/sort/Menu.java" />
-        <option value="$PROJECT_DIR$/src/com/sda/sort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/com/sda/prime/IsPrimeChecker.java" />
         <option value="$PROJECT_DIR$/src/com/sda/prime/Menu.java" />
         <option value="$PROJECT_DIR$/src/com/sda/gcd/MakeGCD.java" />
         <option value="$PROJECT_DIR$/src/com/sda/gcd/Menu.java" />
-        <option value="$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java" />
         <option value="$PROJECT_DIR$/src/com/sda/gcd/GCDrecursiveMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/sort/Quicksort.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/sort/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/sort/SelectSort.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1917" />
-    <option name="width" value="1926" />
-    <option name="height" value="1203" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="y" value="86" />
+    <option name="width" value="1918" />
+    <option name="height" value="1127" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -154,21 +125,7 @@
               <item name="jav21wro_p1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="bunny" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jav21wro_p1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jav21wro_p1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="gcd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jav21wro_p1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jav21wro_p1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="prime" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Menu (2)">
+  <component name="RunManager" selected="Application.Menu (1)">
     <configuration name="BunnyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.bunny.BunnyCounter" />
       <module name="jav21wro_p1" />
@@ -268,9 +225,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Menu (1)" />
         <item itemvalue="Application.Menu (2)" />
         <item itemvalue="Application.Menu" />
-        <item itemvalue="Application.Menu (1)" />
         <item itemvalue="Application.BunnyCounter" />
         <item itemvalue="Application.PowtorkaMain" />
       </list>
@@ -329,14 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558443044293</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Rebuild recursiveMethod method.">
+      <created>1558524651511</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558524651511</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1917" y="0" width="1926" height="1203" extended-state="6" />
+    <frame x="1920" y="86" width="1918" height="1127" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18743344" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1882353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -346,7 +310,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2431149" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2620266" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918116" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,24 +336,14 @@
     <MESSAGE value="Add MakeGDC class and menu fot GDC maker." />
     <MESSAGE value="Add GDC class for recursive method." />
     <MESSAGE value="Add time counting." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add time counting." />
+    <MESSAGE value="Rebuild recursiveMethod method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuild recursiveMethod method." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/sda/powtorka/IDrawable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -427,16 +381,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sda/sort/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sda/prime/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -444,13 +388,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sda/sort/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -468,6 +405,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/gcd/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sda/prime/IsPrimeChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -475,10 +419,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sda/gcd/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/gcd/GCDrecursiveMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -489,17 +440,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sda/gcd/GCDrecursiveMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sda/sort/Quicksort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/sort/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/sort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>

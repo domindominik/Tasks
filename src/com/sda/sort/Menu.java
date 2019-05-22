@@ -16,7 +16,7 @@ public class Menu
     }
     public static void main(String[] args)
     {
-        int size = 50, upperBound = 26;
+        int size = 50, upperBound = 260;
 
         int matrix[] = new int[size];
 
@@ -25,7 +25,7 @@ public class Menu
 
         for (int i = 0; i < size; i++)
         {
-            matrix[i] = random.nextInt(upperBound - 5);
+            matrix[i] = random.nextInt(upperBound - 95);
         }
 
         System.out.println("Random numbers: ");
