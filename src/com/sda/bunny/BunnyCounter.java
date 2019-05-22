@@ -6,7 +6,8 @@ public class BunnyCounter
 {
     static int i = 2;
 
-    static int bunnyCounterRecurence(int n, int bNo, int bNop) {
+    static int bunnyCounterRecurence(int n, int bNo, int bNop)
+    {
         int temp = 0;
 
         temp = bNo + bNop;
@@ -15,9 +16,12 @@ public class BunnyCounter
 
         i++;
 
-        if (i < n) {
+        if (i < n)
+        {
             return bunnyCounterRecurence(n, bNo, bNop);
-        } else {
+        }
+        else
+        {
             return bNo;
 
         }
