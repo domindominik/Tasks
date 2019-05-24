@@ -16,7 +16,7 @@ public class Menu
     }
     public static void main(String[] args)
     {
-        int size = 50, upperBound = 260;
+        int size = 5000, upperBound = 9960;
 
         int matrix[] = new int[size];
 
@@ -25,16 +25,35 @@ public class Menu
 
         for (int i = 0; i < size; i++)
         {
-            matrix[i] = random.nextInt(upperBound - 95);
+            matrix[i] = random.nextInt((4000 - 20)*1);
         }
 
         System.out.println("Random numbers: ");
         showMatrix(matrix);
 
         //bubblesorting(matrix);
-        selectSort(matrix);
+        //selectSort(matrix);
 
-        System.out.println("\nAfter sorting: ");
+        //System.out.println("\nAfter sorting: ");
+        //showMatrix(matrix);
+
+
+        System.out.println("\nQuick Sort");
+        QuickSort quickSort = new QuickSort(matrix);
+        quickSort.quickSort(0,4999);
         showMatrix(matrix);
+
+
+        System.out.println("\nBubble Sort Recursively");
+        for (int i = 0; i < size; i++)
+        {
+            matrix[i] = random.nextInt((4000 - 20)*1);
+        }
+        showMatrix(matrix);
+        BubbleSortRecursively bubbleSortRecursively = new BubbleSortRecursively();
+        bubbleSortRecursively.bubbleSortR(matrix);
+        showMatrix(matrix);
+
+
     }
 }

@@ -4,6 +4,19 @@ public class SieveOfEratosthenes
 {
     public static void sieveOfEratosthenes(int matrix[])
     {
+        for (int i = 2; i < matrix.length; i++)
+        {
+            if (matrix[i] != 0)
+            {
+                for (int j = i * 2; j < matrix.length; j += i )
+                {
+                    matrix[j] = 0;
+                }
+            }
+        }
+    }
+    /*public static void sieveOfEratosthenes(int matrix[])
+    {
 
         for (int i = 2; i < matrix.length; i++)
         {
@@ -19,7 +32,7 @@ public class SieveOfEratosthenes
             }
 
         }
-    }
+    }*/
 
     public static void showMatrix(int matrix[])
     {
@@ -30,7 +43,7 @@ public class SieveOfEratosthenes
                 System.out.print(matrix[i] + "\t");
                 if (i % 20 == 0)
                 {
-                    System.out.println();
+                    System.out.println(" ");
                 }
             }
             else
