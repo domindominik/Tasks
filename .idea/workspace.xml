@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29941b88-a89b-4d40-83e7-02540caebac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/game/InvertedGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/stopper/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/stopper/Stopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/generic/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/list/ArrayList1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/list/ArrayList2x.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/list/IList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/list/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/list/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/list/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/stopper/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/stopper/Menu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,61 +25,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sda/sort/BubbleSorting.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sda/list/IList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="9" selection-start-line="23" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sda/stopper/Stopper.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sda/list/ArrayList1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            <state relative-caret-position="165">
+              <caret line="11" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sda/stopper/Menu.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sda/list/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sda/sort/BubbleSortRecursively.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sda/sort/SelectSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sda/game/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="450">
+              <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,10 +62,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sda/game/InvertedGame.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sda/list/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="255">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sda/list/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding>
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +134,14 @@
         <option value="$PROJECT_DIR$/src/com/sda/game/Game.java" />
         <option value="$PROJECT_DIR$/src/com/sda/game/InvertedGame.java" />
         <option value="$PROJECT_DIR$/src/com/sda/stopper/Stopper.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/generic/Pair.java" />
         <option value="$PROJECT_DIR$/src/com/sda/stopper/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/list/IList.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/list/ArrayList1.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/list/ArrayList2x.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/list/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/list/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/list/Menu.java" />
       </list>
     </option>
   </component>
@@ -172,7 +182,7 @@
               <item name="jav21wro_p1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jav21wro_p1" type="b2602c69:ProjectViewProjectNode" />
@@ -191,7 +201,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558785998043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558877364447" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -205,20 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Game">
-    <configuration name="BunnyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.bunny.BunnyCounter" />
-      <module name="jav21wro_p1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.bunny.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Menu (4)">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.game.Game" />
       <module name="jav21wro_p1" />
@@ -245,12 +242,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Menu (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.gcd.Menu" />
+    <configuration name="Menu (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.stopper.Menu" />
       <module name="jav21wro_p1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.gcd.*" />
+          <option name="PATTERN" value="com.sda.stopper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Menu (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.list.Menu" />
+      <module name="jav21wro_p1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,19 +295,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BunnyCounter" />
       <item itemvalue="Application.Menu (1)" />
-      <item itemvalue="Application.Menu (2)" />
       <item itemvalue="Application.Menu" />
       <item itemvalue="Application.Game" />
+      <item itemvalue="Application.Menu (3)" />
+      <item itemvalue="Application.Menu (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Menu (4)" />
+        <item itemvalue="Application.Menu (3)" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.Menu (1)" />
         <item itemvalue="Application.Menu" />
-        <item itemvalue="Application.Menu (2)" />
-        <item itemvalue="Application.BunnyCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +385,7 @@
     <frame x="-3" y="31" width="1446" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18168813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14306152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -385,7 +395,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2615156" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2600297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918116" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,7 +403,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32986626" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285568" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.205052" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -550,17 +560,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sda/sort/BubbleSortRecursively.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sda/sort/BubbleSorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="9" selection-start-line="23" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/sort/BubbleSortRecursively.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/generic/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,10 +600,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/list/IList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/list/ArrayList2x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/list/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/list/ArrayList1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sda/stopper/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/list/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/list/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

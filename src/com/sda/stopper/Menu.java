@@ -1,12 +1,12 @@
 package com.sda.stopper;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Menu
 {
-    public void makeMultiplication(int matrix[])
+    public static void makeMultiplication(int matrix[])
     {
-        int n = 1000000;
         for (int i = 0; i < matrix.length; i++)
         {
             matrix[i] *= 2;
@@ -14,6 +14,7 @@ public class Menu
     }
     public static void main(String[] args)
     {
+        int n = 1000000;
         int matrix[] = new int[n];
 
         for (int i = 0; i < n; i++)
@@ -22,7 +23,7 @@ public class Menu
         }
 
         Stopper stopper = new Stopper();
-        List<Float> timeStatement;
+        List<Float> timeStatement = new ArrayList<>();
 
         for (int i = 0; i < 1000000; i++)
         {
